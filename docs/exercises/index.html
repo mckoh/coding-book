@@ -8,21 +8,23 @@
       
       
       
-        <link rel="canonical" href="https://mckoh.github.io/coding/exercise/exercise_01/">
+        <link rel="canonical" href="https://mckoh.github.io/coding/exercises/">
+      
+      
+        <link rel="prev" href="../about/">
       
       
       
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
     
     
       
-        <title>Exercise 1: Exit Game - MCI Coding Manual</title>
+        <title>Exercise - MCI Coding Manual</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
       
       
 
@@ -41,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#exercise-1-exit-game" class="md-skip">
+        <a href="#exercises" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="MCI Coding Manual" class="md-header__button md-logo" aria-label="MCI Coding Manual" data-md-component="logo">
+    <a href=".." title="MCI Coding Manual" class="md-header__button md-logo" aria-label="MCI Coding Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Exercise 1: Exit Game
+              Exercise
             
           </span>
         </div>
@@ -171,7 +173,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="MCI Coding Manual" class="md-nav__button md-logo" aria-label="MCI Coding Manual" data-md-component="logo">
+    <a href=".." title="MCI Coding Manual" class="md-nav__button md-logo" aria-label="MCI Coding Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -189,7 +191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -209,7 +211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -226,10 +228,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../exercises/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -238,6 +249,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -275,31 +287,10 @@
                   
 
 
-<h1 id="exercise-1-exit-game">Exercise 1: Exit Game</h1>
-<p><img alt="Image" src="../img/exercise_01.jpg" /></p>
-<pre><code class="language-python">A, B, C, D = 0, 0, 0, 0
-
-max_value = 36
-
-for A in range(1, max_value):
-    for B in range(1, max_value):
-        for C in range(1, max_value):
-            for D in range(1, max_value):
-
-                row_1 = (D + C + D + A) == 15
-                row_2 = (B + A + A + D) == 22
-                row_3 = (C + B + D + B) == 36
-                row_4 = (D + C + A + C) == 23
-
-                col_1 = (D + B + C + D) == 24
-                col_2 = (C + A + B + C) == 35
-                col_3 = (D + A + D + A) == 10
-                col_4 = (A + D + B + C) == 27
-
-                if row_1 and row_2 and row_3 and row_4:
-                    if col_1 and col_2 and col_3 and col_4:
-                        print(A, B, C, D)
-</code></pre>
+<h1 id="exercises">Exercises</h1>
+<ul>
+<li><a href="../exercise/exercise_01/">Exercise 1: Exit Game</a></li>
+</ul>
 
 
 
@@ -346,10 +337,10 @@ for A in range(1, max_value):
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      <script src="../assets/javascripts/bundle.8fd75fb4.min.js"></script>
       
     
   </body>

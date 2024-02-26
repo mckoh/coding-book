@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mckoh.github.io/coding/exercises/</loc>
+         <lastmod>2024-02-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mckoh.github.io/coding/exercise/exercise_01/</loc>
          <lastmod>2024-02-26</lastmod>
          <changefreq>daily</changefreq>
