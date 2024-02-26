@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://mckoh.github.io/coding/exercise/exercise_01/">
+        <link rel="canonical" href="https://mckoh.github.io/coding/exercise/exercise_01_solution/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Exercise 1: Exit Game - MCI Coding Manual</title>
+        <title>Exercise 1: Exit Game Solution - MCI Coding Manual</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#exercise-1-exit-game" class="md-skip">
+        <a href="#exercise-1-exit-game-solution" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Exercise 1: Exit Game
+              Exercise 1: Exit Game Solution
             
           </span>
         </div>
@@ -262,32 +262,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#scenario" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#your-task" class="md-nav__link">
-    <span class="md-ellipsis">
-      Your Task
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -301,12 +275,30 @@
                   
 
 
-<h1 id="exercise-1-exit-game">Exercise 1: Exit Game</h1>
-<h2 id="scenario">Scenario</h2>
-<p>I found the following image in an exit game. It shows a set of four different symbols, organized in various combinations along four rows and four columns. Each symbol represents a number. We do not know the numeric values behind each symbol, but we know the columns' and rows' sum of values.</p>
-<p><img alt="Image" src="../img/exercise_01.jpg" /></p>
-<h2 id="your-task">Your Task</h2>
-<p>Find the numeric value behind each symbol.</p>
+<h1 id="exercise-1-exit-game-solution">Exercise 1: Exit Game Solution</h1>
+<pre><code class="language-python">A, B, C, D = 0, 0, 0, 0
+
+max_value = 36
+
+for A in range(1, max_value):
+    for B in range(1, max_value):
+        for C in range(1, max_value):
+            for D in range(1, max_value):
+
+                row_1 = (D + C + D + A) == 15
+                row_2 = (B + A + A + D) == 22
+                row_3 = (C + B + D + B) == 36
+                row_4 = (D + C + A + C) == 23
+
+                col_1 = (D + B + C + D) == 24
+                col_2 = (C + A + B + C) == 35
+                col_3 = (D + A + D + A) == 10
+                col_4 = (A + D + B + C) == 27
+
+                if row_1 and row_2 and row_3 and row_4:
+                    if col_1 and col_2 and col_3 and col_4:
+                        print(A, B, C, D)
+</code></pre>
 
 
 
