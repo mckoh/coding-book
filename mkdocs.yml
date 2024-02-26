@@ -6,4 +6,4 @@ nav:
   - Home: index.md
   - About: about.md
 theme:
-  name: gitbook
+  name: material
