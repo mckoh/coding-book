@@ -1,0 +1,6 @@
+site_name: MCI Coding Manual
+site_url: https://mckoh.github.io/coding
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
