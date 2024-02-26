@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 1: Exit Game
 
 ![Image](img/exercise_01.jpg)
 
