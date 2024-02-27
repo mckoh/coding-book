@@ -2,6 +2,7 @@ site_name: MCI Coding Manual
 site_url: https://mckoh.github.io/coding
 docs_dir: docs_source
 site_dir: docs
+
 nav:
   - Home: index.md
   - About: about.md
