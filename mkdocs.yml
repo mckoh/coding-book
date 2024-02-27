@@ -6,13 +6,20 @@ nav:
   - Home: index.md
   - About: about.md
   - Exercise: exercises.md
+
 theme:
   name: material
+  features:
+    - content.code.copy
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
+      linenums: true
       pygments_lang_class: true
+      auto_title: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.highlight
