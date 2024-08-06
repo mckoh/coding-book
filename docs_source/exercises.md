@@ -9,5 +9,5 @@
 * [](exercise/exercise_07.md)
 * [](exercise/exercise_08.md)
 * [](exercise/exercise_09.md)
-* [Exercise 1: Exit Game](exercise/exercise_10.md)
+* [Exercise 10: Exit Game](exercise/exercise_10.md)
 * [](exercise/exercise_.md)
