@@ -1,9 +1,9 @@
-# Exercise 3: Working with Lists
+# Exercise 4: Working with Dictionaries
 
 This is, what you will learn in this exercise:
 
-* Working with iterables in Python
-* Use List methods
+* Learning Goal
+* Learning Goal
 
 ## Scenario
 

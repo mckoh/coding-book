@@ -1,4 +1,4 @@
-# Exercise 3: Working with Iterables Solution
+# Exercise 3: Working with Lists Solution
 
 ```python
 
