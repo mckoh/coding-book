@@ -1,5 +1,5 @@
 # About
 
-* **Author:** FH-Prof Dr. Michael Kohlegger
-* **Contact:** [michael.kohlegger@gmail.com](michael.kohlegger@gmail.com)
+* **Author:** Michael Kohlegger
+* **Contact:** [michael.kohlegger@gmail.com](mailto:michael.kohlegger@gmail.com)
 * **Date:** February 2024
