@@ -1,4 +1,4 @@
-# Exercise 1: Exit Game Solution
+# Exercise 1: Simple Calculations Solutions
 
 ```python
 
