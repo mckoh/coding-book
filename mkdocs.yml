@@ -11,8 +11,8 @@ nav:
 
 theme:
   name: material
-  logo:
-    icon: code
+  icon:
+    logo: fontawesome/solid/code
   features:
     - content.code.copy
   palette:
