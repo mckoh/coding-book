@@ -1,8 +1,7 @@
-name: ci
+name: deploy_github_pages
 on:
   push:
     branches:
-      - master
       - main
 permissions:
   contents: write
@@ -26,5 +25,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - run: mkdocs build
       - run: mkdocs gh-deploy --force
