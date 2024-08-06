@@ -35,4 +35,5 @@ Agin, there is no story behind this exercise. Just create two string variables (
 
 If you struggle with the above tasks, you can get help:
 
-* Your text goes here
+* [Working with strings W3C](https://www.w3schools.com/python/python_strings.asp)
+* [Working with strings G4G](https://www.geeksforgeeks.org/python-string/)
