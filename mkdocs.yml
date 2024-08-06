@@ -6,11 +6,8 @@ site_dir: docs
 nav:
   - Home: index.md
   - About: about.md
-  - Exercise:
-    - Overview: exercises.md
-    - Exercise 1: exercise_01.md
-    - Exercise 2: exercise_02.md
-    - Exercise 3: exercise_03.md
+  - Exercise: exercises.md
+  - Solutions: solutions.md
 
 theme:
   name: material
