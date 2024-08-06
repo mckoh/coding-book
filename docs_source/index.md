@@ -5,7 +5,3 @@ Here, you’ll find all the resources you need to succeed in this course, includ
 Feel free to explore the modules, contribute to discussions, and collaborate with your peers. Let’s embark on this exciting journey of learning and innovation together!
 
 Happy coding!
-
-
-
-
