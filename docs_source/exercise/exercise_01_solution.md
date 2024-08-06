@@ -1,26 +1,44 @@
 # Exercise 1: Exit Game Solution
 
 ```python
-A, B, C, D = 0, 0, 0, 0
 
-max_value = 36
+a = 12
+b = 18
+c = 30
 
-for A in range(1, max_value):
-    for B in range(1, max_value):
-        for C in range(1, max_value):
-            for D in range(1, max_value):
+# Add a and b, and check if the result is equal to c.
 
-                row_1 = (D + C + D + A) == 15
-                row_2 = (B + A + A + D) == 22
-                row_3 = (C + B + D + B) == 36
-                row_4 = (D + C + A + C) == 23
+print(a + b)
+print(a + b == c)
 
-                col_1 = (D + B + C + D) == 24
-                col_2 = (C + A + B + C) == 35
-                col_3 = (D + A + D + A) == 10
-                col_4 = (A + D + B + C) == 27
+# Subtract a from b, and check if the result is not equal to c.
 
-                if row_1 and row_2 and row_3 and row_4:
-                    if col_1 and col_2 and col_3 and col_4:
-                        print(A, B, C, D)
+print(b - a)
+print(b - a != c)
+
+# Multiply a and b, and check if the result is larger than c.
+
+print(a * b)
+print(a * b > c)
+
+# Divide a by 2, and check if the result is smaller or equal to c.
+
+print(a / 2)
+print(a / 2 <= c)
+
+# Calculate a to the power of 2, and check if the result is equal to a multiplies by a.
+
+print(a ** 2)
+print(a ** 2 == a * a)
+
+# Divide b by 3 and check if the division is without remainder.
+
+print(b % 3)
+print(b % 3 == 0)
+
+# Floor-divide b by 4, and check if the result is equal to 4.
+
+print(b // 4)
+print(b // 4 == 4)
+
 ```
