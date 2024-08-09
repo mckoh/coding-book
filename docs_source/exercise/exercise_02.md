@@ -2,15 +2,15 @@
 
 This is, what you will learn in this exercise:
 
-* Work with operators and strings in Python
-* Slice and manipulate strings
+* Work with operators and strings in Python.
+* Slice and manipulate strings.
 
 ## Scenario
 
 Agin, there is no story behind this exercise. Just create two string variables (``a``, and ``b``) and assign the following values:
 
-* `a` is `"YOU ROCK"`
-* `b` is `"you rule"`
+* `a` is `"YOU ROCK"`.
+* `b` is `"you rule"`.
 
 ## Your Task
 

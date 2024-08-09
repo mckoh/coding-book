@@ -2,16 +2,16 @@
 
 This is, what you will learn in this exercise:
 
-* Use different mathematical operations
-* Use different operators
+* Use different mathematical operations.
+* Use different operators.
 
 ## Scenario
 
 Actually, there is no big scenario for this exercise. Just create six variables (a, b, and c) and assign the following values:
 
-* `a` is ``12``
-* `b` is ``18``
-* `c` is ``30``
+* `a` is ``12``.
+* `b` is ``18``.
+* `c` is ``30``.
 
 ## Your Task
 

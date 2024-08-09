@@ -2,15 +2,15 @@
 
 This is, what you will learn in this exercise:
 
-* Working with list iterables in Python
-* Get used to the built-in list methods
+* Working with list iterables in Python.
+* Get used to the built-in list methods.
 
 ## Scenario
 
 Create two list variables (``a``, and ``b``) and assign the following values:
 
-* `a` is `[2, 4, 6, 1, 2, 3]`
-* `b` is `["a", "b", "a", "a", "b"]`
+* `a` is `[2, 4, 6, 1, 2, 3]`.
+* `b` is `["a", "b", "a", "a", "b"]`.
 
 ## Your Task
 
