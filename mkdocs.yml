@@ -21,7 +21,7 @@ theme:
     - navigation.path
   color_mode: dark
   palette:
-    primary: teal
+    primary: indigo # teal
   shortcuts:
     help: 191    # ?
     next: 78     # n
