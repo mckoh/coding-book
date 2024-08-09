@@ -15,6 +15,10 @@ theme:
     logo: fontawesome/solid/code
   features:
     - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
   palette:
     primary: teal
 
