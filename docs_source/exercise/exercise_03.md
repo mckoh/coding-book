@@ -2,20 +2,20 @@
 
 This is, what you will learn in this exercise:
 
-* Working with iterables in Python
-* Use List methods
+* Working with list iterables in Python
+* Get used to the built-in list methods
 
 ## Scenario
 
-Your Text goes here
-Your Text goes here
-Your Text goes here
+Create two list variables (``a``, and ``b``) and assign the following values:
+
+* `a` is `[1, 2, 3, 4, 5, 6]`
+* `b` is `["a", "b", "c", "d", "e"]`
 
 ## Your Task
 
-* Your Text goes here
-* Your Text goes here
-* Your Text goes here
+* Get the value of the first item in list `a`.
+* 
 
 ## Help
 
