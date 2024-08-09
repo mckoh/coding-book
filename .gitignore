@@ -1,5 +1,5 @@
 # Personal ignores
-excercise/*.py
+docs_source/exercise/*.py
 
 
 # Byte-compiled / optimized / DLL files
