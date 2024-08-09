@@ -19,6 +19,12 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
+    - navigation.footer
+  extra:
+    copyright: Copyright &copy; 2024 - 2020 Michael Kohlegger
+    social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mckoh
   color_mode: dark
   palette:
     primary: indigo # teal
