@@ -19,8 +19,14 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
+  color_mode: dark
   palette:
     primary: teal
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
 
 markdown_extensions:
   - pymdownx.highlight:
