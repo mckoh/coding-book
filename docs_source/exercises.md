@@ -20,13 +20,13 @@
 * **Goal 1:** Working with dictionary iterables in Python.
 * **Goal 2:** Get used to the built-in dictionary methods.
 
-## Exercise 5:[Working with Coding Helpers](exercise/exercise_06.md)
+## Exercise 5: [Working with Coding Helpers](exercise/exercise_06.md)
 
 * **Goal 1:** Working with conditions.
 * **Goal 2:** Working with loops.
 * **Goal 3:** Handling Exceptions.
 
-## Exercise 6:[Working with Functions](exercise/exercise_05.md)
+## Exercise 6: [Working with Functions](exercise/exercise_05.md)
 
 * **Goal 1:** Working with traditional Python functions.
 * **Goal 2:** Working with Lambda functions.
