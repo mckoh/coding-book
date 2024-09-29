@@ -7,14 +7,6 @@ site_author: Michael Kohlegger
 copyright: © 2020, MK
 strict: false
 
-nav:
-  - Home: index.md
-  - Contact: contact.md
-  - Preparations: preparations.md
-  - Lets Code:
-    - Exercises: exercises.md
-    - Solutions: solutions.md
-
 theme:
   name: material
   icon:
@@ -42,8 +34,6 @@ extra:
       link: https://github.com/mckoh
       name: Michael Kohlegger on Github
 
-copyright: Copyright &copy; 2024 Michael Kohlegger
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -55,3 +45,34 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.highlight
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code
+      # otherwise, mermaid images are shown as code
+      # box with regular syntax highlighting
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+
+# mermaid is used for visualization
+plugins:
+    - mermaid2
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+copyright: Copyright &copy; 2024 Michael Kohlegger
+
+# Preamble
+
+nav:
+  - Home: index.md
+  - Contact: contact.md
+  - Preparations: preparations.md
+  - Lets Code:
+    - Exercises: exercises.md
+    - Solutions: solutions.md
