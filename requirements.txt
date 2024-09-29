@@ -1,2 +1,7 @@
+mkdocs
 mkdocs-material
-pygments
+mkdocs-material-extensions
+pymdown-extensions
+Pygments
+mkdocs-mermaid2-plugin
+beautifulsoup4
