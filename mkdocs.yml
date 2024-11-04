@@ -12,21 +12,42 @@ theme:
   icon:
     logo: fontawesome/solid/code
   features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - content.code.copy
-    - navigation.tabs
-    #- navigation.tabs.sticky
+    #- navigation.tabs # creates top bar menu
+    #- navigation.tabs.sticky # lets tabs stick
+    #- navigation.expand # expands navigation to depth
     - navigation.sections
     - navigation.path
     - navigation.footer
-    - navigation.expand
-  color_mode: dark
-  palette:
-    primary: indigo # teal
+    - toc.integrate # integrates section menu to nav
+    - navigation.top # adds a top to button
+
   shortcuts:
     help: 191    # ?
     next: 78     # n
     previous: 80 # p
     search: 83   # s
+
+  palette:
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
 
 extra:
   social:
@@ -71,8 +92,6 @@ copyright: Copyright &copy; 2024 Michael Kohlegger
 
 nav:
   - Home: index.md
-  - Contact: contact.md
-  - Preparations: prep.md
-  - Lets Code:
-    - Exercises: exercises.md
-    - Solutions: solutions.md
+  - About: about.md
+  - Lerninhalte: tutorials.md
+  - Übungsaufgaben: exercises.md
