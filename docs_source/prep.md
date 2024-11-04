@@ -25,3 +25,4 @@ No matter which IDE you choose, our goal remains the same: to provide you with t
 In the first two lessons of this series, we learned how to set up Python and an appropriate development environment on our own computers. However, we don't always have access to our own devices. In this video, I will show you a practical alternative that allows you to practice Python without needing to perform an installation. This method is especially useful if you only have access to a tablet and cannot set up a full development environment.
 
 <video src="https://www.youtube.com/watch?v=05NIuajNkWc" width="320" height="240" controls></video>
+

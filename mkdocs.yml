@@ -72,7 +72,7 @@ copyright: Copyright &copy; 2024 Michael Kohlegger
 nav:
   - Home: index.md
   - Contact: contact.md
-  - Preparations: preparations.md
+  - Preparations: prep.md
   - Lets Code:
     - Exercises: exercises.md
     - Solutions: solutions.md
