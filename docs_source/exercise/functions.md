@@ -16,8 +16,9 @@ The area of the circle is: 78.54
 
 ## Your Task
 
-* Create the function.
-* Test the function.
+* Create the function as traditions Python function.
+* Create the function as a lambda function.
+* Test the functions.
 
 ## Help
 
