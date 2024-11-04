@@ -1,4 +1,4 @@
-# Exercise 1: Exit Game
+# Exit Game
 
 This is, what you will learn in this exercise:
 

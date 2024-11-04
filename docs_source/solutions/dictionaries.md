@@ -1,4 +1,4 @@
-# Exercise 4: Working with Dictionaries Solution
+# Working with Dictionaries Solution
 
 ```python
 a = {

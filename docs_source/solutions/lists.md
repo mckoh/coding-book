@@ -1,4 +1,4 @@
-# Exercise 3: Working with Lists Solution
+# Working with Lists Solution
 
 ```python
 a = [2, 4, 6, 1, 2, 3]

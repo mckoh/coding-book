@@ -1,4 +1,4 @@
-# Exercise 5: Working with Coding Helpers Solution
+# Working with Coding Helpers Solution
 
 ```python
 instructions = input("Give me the list:")

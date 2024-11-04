@@ -1,4 +1,4 @@
-# Exercise 1: Exit Game Solution
+# Exit Game Solution
 
 ```python
 A, B, C, D = 0, 0, 0, 0

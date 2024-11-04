@@ -1,4 +1,4 @@
-# Exercise 2: String Operations Solution
+# String Operations Solution
 
 ```python
 a = "You rock"

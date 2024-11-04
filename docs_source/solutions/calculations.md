@@ -1,4 +1,4 @@
-# Exercise 1: Simple Calculations Solutions
+# Simple Calculations Solutions
 
 ```python
 

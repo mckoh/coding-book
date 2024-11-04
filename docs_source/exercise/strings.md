@@ -1,4 +1,4 @@
-# Exercise 2: String Operations
+# String Operations
 
 This is, what you will learn in this exercise:
 

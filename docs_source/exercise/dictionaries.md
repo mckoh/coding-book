@@ -1,4 +1,4 @@
-# Exercise 4: Working with Dictionaries
+# Working with Dictionaries
 
 This is, what you will learn in this exercise:
 

@@ -1,10 +1,10 @@
-# Exercise 5: Working with Coding Helpers
+# Working with Coding Helpers
 
 This is, what you will learn in this exercise:
 
 * Working with conditions.
 * Working with loops.
-* Handling Exceptions.
+* Handling exceptions.
 
 ## Scenario
 

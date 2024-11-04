@@ -1,4 +1,4 @@
-# Exercise 1: Simple Calculations
+# Simple Calculations
 
 This is, what you will learn in this exercise:
 

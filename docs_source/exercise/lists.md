@@ -1,4 +1,4 @@
-# Exercise 3: Working with Lists
+# Working with Lists
 
 This is, what you will learn in this exercise:
 
