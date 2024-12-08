@@ -40,3 +40,5 @@
 * **Goal 1:** Working with conditions.
 * **Goal 2:** Working with loops.
 * **Goal 3:** Handling Exceptions.
+
+## [Individual Exercises](homeworks/exercise.md)
