@@ -1,6 +1,6 @@
 # Personal ignores
 docs_source/exercise/*.py
-
+sandbox.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
