@@ -35,7 +35,13 @@
 * **Goal 1:** Working with traditional Python functions.
 * **Goal 2:** Working with Lambda functions.
 
-## Exercise 8: [Advanced Coding Exercise](exercise/contion_loop_exception.md)
+## Exercise 8: [Active & Reactive Debugging](exercise/debugging.md)
+
+* **Goal 1:** Working with runtime assertion.
+* **Goal 2:** Working with error raises.
+* **Goal 3:** Using try-except clauses.
+
+## Exercise 9: [Advanced Coding Exercise](exercise/contion_loop_exception.md)
 
 * **Goal 1:** Working with conditions.
 * **Goal 2:** Working with loops.

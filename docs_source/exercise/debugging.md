@@ -2,9 +2,9 @@
 
 This is, what you will learn in this exercise:
 
-* Runtime assertion.
-* Raising of errors.
-* Using try-except clauses
+* Working with runtime assertion.
+* Working with error raises.
+* Using try-except clauses.
 
 ## Scenario
 

@@ -212,15 +212,15 @@ cc.decrypt("KM PZKXYJNS") #FH KUFSTEIN
 
 ## Herausfordernde Aufgaben
 
-### Memory (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Memory (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Programmiere das Spiel [Memory](<https://de.wikipedia.org/wiki/Memory_(Spiel)>) Das Spiel soll 2 Spieler:innen unterstützen und aus einem 6x6-Spielfeld, somit 36 Karten bzw. 13 Paaren, bestehen. Die Karten sind die Buchstaben A bis M. Spieler:innen geben pro Durchgang für zwei Karten Zeile und Spalten für ein Feld, die umgedreht werden sollen, ein. Sollten die beiden Karten nicht zusammenpassen, werden die Karten wieder umgedreht.
 
-### Tic Tac Toe (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Tic Tac Toe (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Erstellt ein Programm, mit dem man Tic Tac Toe und 2 Spieler:innen spielen kann. Die Spieler:innen geben abwechselnd über die Konsole die Zeile und die Spalte ein, wo ein X bzw. O gesetzt werden wollen. Nach jeder Eingabe wird überprüft, ob das Feld bereits belegt ist. Ist das der Fall, wird der:die Spieler:in so lange aufgefordert, bis er:sie ein freies Feld wählt. Nach jeder korrekten Eingabe wird überprüft, ob jemand gewonnen hat.
 
-### Bestellung (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Bestellung (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Erstelle eine Klasse `order` die Bestellungen verwalten kann. Jede Bestellung erhält eine Bestellnummer, die aus dem Buchstaben B und einer fortlaufenden Nummer besteht (z.B. B1 für die erste Bestellung, B2 für die zweite usw.). Diese Bestellnummer wird automatisch beim Erstellen einer Bestellung vergeben.
 
@@ -228,7 +228,7 @@ Zusätzlich hat jede Bestellung ein Bestelldatum und einen Kommentar. Du kannst 
 
 Produkte haben einen Namen, eine Beschreibung und einen Verkaufspreis. Für jede Bestellung muss es möglich sein, den Gesamtpreis zu berechnen. Der Gesamtpreis ergibt sich aus der Summe der Verkaufspreise der hinzugefügten Produkte.
 
-### Summe der umliegenden Felder (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Summe der umliegenden Felder (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Erstelle eine Funktion ``transform_matrix()``, der du eine zweidimensionale int-Liste übergeben kannst. Diese Funktion soll für jede Position in der zweidimensionalen int-Liste die Summe der umliegenden Elemente (unten, oben, rechts, links und diagonal) berechnen.
 
@@ -245,12 +245,12 @@ transform_matrix(input_list)
 # Output
 # [
 #    [11, 19, 13],
-#    [23, 40, 27],
+#    [23, 45, 27],
 #    [17, 31, 19]
 # ]
 ```
 
-### Schere, Stein, Papier, Echse, Spock (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Schere, Stein, Papier, Echse, Spock (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Implementiere das Spiel [Schere, Stein, Papier, Echse, Spock](https://www.youtube.com/watch?v=03QhVJcuVoY). Nimm dazu die Spielzüge von zwei Spieler:innen nacheinander entgegen. Wenn beide Spieler:innen dieselbe Wahl getroffen haben, wird das Spiel so lange wiederholt, bis ein:e Spieler:in gewonnen hat. Es gelten folgende Regeln:
 
@@ -267,7 +267,7 @@ Implementiere das Spiel [Schere, Stein, Papier, Echse, Spock](https://www.youtub
 
 Konzipiere eine effiziente Speicherung der Regeln, um zu vermeiden, 10 `if`-Statements benutzen zu müssen.
 
-### Conways Spiel des Lebens (<span style="color:#C70039">Herausfordernd</span>, 40 Punkte)
+### Conways Spiel des Lebens (<span style="color:#C70039">Herausfordernd</span>, 45 Punkte)
 
 Setzte [Conways Spiel des Lebens](https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens) mit hilfe von Python um. Bei diesem Spiel geht es darum, die Evolution von Zellen über mehrere Generationen zu berechnen. Es gibt ein rechteckiges Spielfeld von Zellen. Jede Zelle kann entweder tot oder lebendig sein (`status = 0` oder `status = 1`). Die nächste Generation eine Zelle ergibt sich aus dem Zustand der Nachbarn einer Zelle. Dabei gelten folgende Regeln:
 
